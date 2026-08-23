@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = "echo 'Static export ready'"
+
+[[redirects]]
+  from = "/Desafio21dias/*"
+  to = "https://iphonedelucas9-png.github.io/Desafio21dias/:splat"
+  status = 200
+  force = true

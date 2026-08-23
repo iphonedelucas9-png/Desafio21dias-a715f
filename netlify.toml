@@ -7,3 +7,9 @@
   to = "https://iphonedelucas9-png.github.io/Desafio21dias/:splat"
   status = 200
   force = true
+
+[[headers]]
+  for = "/media/vsl-desafio.mp4"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "video/mp4"
